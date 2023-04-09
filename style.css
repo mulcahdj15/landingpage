@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #f9FAF8;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    color: #f9FAF8;
+    font-size: 24px;
+    display: flex;
+    justify-items: space-around;
+    
+    padding: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-1 {
+    background-color: #1F2937;
+    color: #f9FAF8;
+    font-size: 24px;
+}
