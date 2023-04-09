@@ -13,8 +13,7 @@
 
 ul {
     list-style-type: none;
-    color: #f9FAF8;
-    font-size: 24px;
+    
     display: flex;
     justify-items: space-around;
     
@@ -23,10 +22,21 @@ ul {
 
 a {
     text-decoration: none;
+    color: #f9FAF8;
+    font-size: 18px;
+    
+
+
 }
 
 .section-1 {
     background-color: #1F2937;
     color: #f9FAF8;
     font-size: 24px;
+    display: flex;
+}
+
+.section-2  {
+    background-color: white;
+    font-size:
 }
