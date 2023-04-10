@@ -24,9 +24,6 @@ a {
     text-decoration: none;
     color: #f9FAF8;
     font-size: 18px;
-    
-
-
 }
 
 .section-1 {
@@ -39,4 +36,16 @@ a {
 .section-2  {
     background-color: white;
     font-size:
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.section-3 p{
+    font-weight: 800;
+    display: flex;
+    justify-content: flex-end;
 }
