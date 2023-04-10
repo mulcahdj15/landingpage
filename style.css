@@ -35,9 +35,12 @@ a {
 
 .section-2  {
     background-color: white;
-    font-size:
 }
 
+h2 {
+    display: flex;
+    justify-content: center;
+}
 .section-3 {
     background-color: #E5E7EB;
     font-size: 36px;
@@ -48,4 +51,22 @@ a {
     font-weight: 800;
     display: flex;
     justify-content: flex-end;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.box-container{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.section-2 p {
+    display: flex;
+    justify-content: center;
 }
