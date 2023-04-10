@@ -1,0 +1,40 @@
+I am trying to space out the li elements but they are not creating space between them can you see what I am doing wrong?
+
+
+
+Html:
+<div class="header">
+            <img src="logo.jpg" alt="just a fun suitcase">
+            <ul>
+                <li><a href="#"> Link one </a> </li>
+                <li><a href="#"> Link two </a> </li>
+                <li><a href="#"> Link three </a> </li>
+            </ul>
+        </div>
+
+CSS:
+.header {
+    background-color: #1F2937;
+    color: #f9FAF8;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header img {
+    clip: rect(100px, 100px,100px, 100px);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9FAF8;
+    font-size: 18px;
+}
